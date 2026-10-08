@@ -2,7 +2,7 @@
  [TestMethod]
  public void UseCase_coin_paytosin()
  {
-     // SinB trransfers amount to SinA
+     // SinB transfers the amount to SinA
      Set_AUD();
      decimal amount = 5; // Amount to pay
      // Credit 

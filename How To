@@ -1,0 +1,25 @@
+This file provides the step of how to use this site supplied code base.
+
+Development Environment
+1. Windows 11 2025 Update (Version 25H2)
+2. Visual Studio 2022
+3. Obtain a "Device Token" from your node operator, this will self configure your development environment.
+
+Steps
+1. Download the supplied Fido Provider here https://github.com/Money-2021/VaultedObjects/blob/main/Fido.dll
+   and the Support file here: https://github.com/Money-2021/PaymentClient/blob/main/Support
+2. Great new Visual Studio Net8.0 MSTest (Microsoft's built-in framework)
+3. Download the UnitTest cases as provided
+4. Adapt the supplied code to your local MSTest environment. including configuration of your DeviceToken pathway.
+5. Execute the supplied UnitTest cases to verify correct operation of the code functionality.
+
+Suggested MSTest flow
+1. UseCase_coin_balance()
+2. UseCase_coin_local_pay_to_sin()
+3. UseCase_coin_balance() for each Sin to verify payment flow between payment parties.
+
+Notes
+1. Typically a professional developer should allocate around 30 minutes to complete the first test case.
+2. Visual Studio should automatically download or request the download of all required Net8.0 supporting libraries.
+
+Enjoy the new world of Information Theoretic Secured Payments.
